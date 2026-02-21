@@ -28,7 +28,8 @@
             alt="Recarregua a página" title="Imagem do do Dev Lucas">
         <article>
 
-            <p>Olá! Meu nome é Lucas Oliveira, e sou um desenvolvedor de software apaixonado por tecnologia e inovação.</p>
+            <p>Olá! Meu nome é Lucas Oliveira, e sou um desenvolvedor de software apaixonado por tecnologia e inovação.
+            </p>
         </article>
 
         <aside>
@@ -64,6 +65,36 @@
         <section id="contact">
             <h2>Contato</h2>
             <p>Tem um projeto em mente ou quer saber mais sobre mim? Entre em contato!</p>
+
+            <form action="">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Telefone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                </select><br>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                <input type="checkbox" id="incription" name="inscription">
+                <label for="incription">Deseja se inscrever para receber novidades?</label>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+            <h3>Informações de Contato</h3>
+
             <address>
                 Email: <a href="mailto:lucas.oliveiramacedo@hotmail.com">lucas.oliveiramacedo@hotmail.com</a><br>
                 Telefone: <a href="tel: (48)99925-3797">(48)99925-3797</a>
